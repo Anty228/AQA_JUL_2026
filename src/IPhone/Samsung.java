@@ -1,15 +1,9 @@
 package IPhone;
 
-public class Samsung implements IPhone, FingerPrint {
+public class Samsung implements IPhone {
     @Override
     public void unlock() {
-        System.out.println("Samsung unlocks");
+        System.out.println("Samsung unlocks with FingerPrint");
     }
-    @Override
-    public void FingerPrint() {
-        System.out.println("Samsung unlocks with Finger print");
-    }
-    @Override public void FaceID() {
-        System.out.println("Samsung doesn`t have FaceID");
-    }
+
 }

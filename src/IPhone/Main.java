@@ -6,8 +6,6 @@ public class Main {
         Apple apple = new Apple();
         unlock(samsung);
         unlock(apple);
-        FaceID(apple);
-        FingerPrint(samsung);
 
     }
 
@@ -16,11 +14,5 @@ public class Main {
 
     }
 
-    public static void FaceID(Apple FaceID) {
-        FaceID.FaceID();
-    }
 
-    public static void FingerPrint(Samsung FingerPrint) {
-        FingerPrint.FingerPrint();
-    }
 }

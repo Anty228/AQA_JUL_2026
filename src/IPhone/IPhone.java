@@ -6,7 +6,5 @@ package IPhone;
 
 public interface IPhone {
     void unlock();
-    void FaceID();
-    void FingerPrint();
 
 }
