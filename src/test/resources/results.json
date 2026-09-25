@@ -1,0 +1,31 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Jaques",
+        "last": "Nunes"
+      },
+      "nat": "BR"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Latife",
+        "last": "Alpuğan"
+      },
+      "nat": "TR"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Logan",
+        "last": "King"
+      },
+      "nat": "NZ"
+    }
+  ]
+}
