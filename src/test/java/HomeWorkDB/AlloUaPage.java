@@ -1,11 +1,9 @@
-package HomeWorkPageObjects;
+package HomeWorkDB;
 
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import java.util.List;
 
 public class AlloUaPage {
 
@@ -41,4 +39,10 @@ public class AlloUaPage {
         WebElement goodsPrice = driver.findElement(By.className("sum"));
         return goodsPrice.getText();
     }
+
+    public String getProductName() {
+        WebElement goodsName = driver.findElement(By.className("MG8H4"));
+        return goodsName.getText();
+    }
+
 }
